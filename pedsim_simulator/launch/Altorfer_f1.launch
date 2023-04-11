@@ -1,10 +1,10 @@
 <launch>
 
-  <arg name="rviz" default="false"/>
-  <arg name="teleop" default="false"/>
+  <arg name="rviz" default="true"/>
+  <arg name="teleop" default="true"/>
   <arg name="mapping" default="false"/>
   <arg name="localization" default="false"/>
-  <arg name="map_path" default="/tmp/my_map.yaml"/>
+  <arg name="map_path" default="$(find pedsim_simulator)/config/mymap.yaml"/>
   
 
   <!-- params -->

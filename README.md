@@ -52,3 +52,8 @@ If something is not working or you have any questions, please report it with a [
 
 ## Acknowledgement
 Muhammad Fahad made this simulation based on [pedsim_ros](https://github.com/srl-freiburg/pedsim_ros).
+
+# Mapping
+```
+rosrun map_server map_saver --occ 90 --free 10 -f mymap map:=/move_base/global_costmap/costmap
+```
